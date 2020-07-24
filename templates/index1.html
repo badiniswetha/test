@@ -1,0 +1,90 @@
+<html>
+<head>
+<style>
+body{
+font-family:Times New Roman;
+}
+.box{
+width:250px;
+margin:auto;
+background:#AED6F1;
+opacity:0.9;
+padding:8px;
+}
+form{
+padding:10px;
+font-family:Times New Roman;
+border:2px solid black;
+margin:6px;
+}
+h1
+{
+text-align:center;
+color:#000080;
+}
+h2{
+text-align:center;
+color:#000080;
+padding:10px;
+border-radius:5px;
+}
+input{
+padding:8px;
+margin:5px;
+border-radius:3px;
+}
+input[type=text]
+{
+width:90%;
+}
+input[type=submit]
+{
+width:95%;
+cursor:pointer;
+font-size:10px;
+font-weight:bold;
+color:black;
+}
+input[type=submit]:hover{
+background:#dddddd;
+text-align:center;
+}
+select{
+padding:10px;
+width:32%
+border-radius:5px;
+align:center;
+}
+</style>
+<style>
+body{
+background-image:url('https://ak.picdn.net/shutterstock/videos/779578/thumb/1.jpg');
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+</style>
+<div class="box">
+<form action="/login"method="post">
+<h2>WIND ENERGY PREDICTION</h2>
+<h3>Wind Speed</h3>
+<p><input type="text"name="ws"/></p>
+<h3>Theoritical Power Curve</h3>
+<p><input type="text"name="tpc"/></p>
+<h3>Wind Direction</h3>
+<p><input type="text"name="wd"/></p>
+<h3><label for ="weather">select Weather Condition</label></h3>
+<select name="w">
+<option value="Cloudy">Cloudy<option>
+<option value="Rainy">Rainy<option>
+<option value="Sunny">Sunny<option>
+<option value="Windy">Windy<option>
+</select>
+<p><input type="submit" value="Predict"/></p>
+</form>
+<center>
+<label for='v'><b>{{y}}</b></label>
+<center>
+</div>
+</head>
+</body>
+</html>

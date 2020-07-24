@@ -1,0 +1,88 @@
+ WEBPAGE1-Home page
+<style>
+body
+{
+border:3px solid black;
+background-color:#ff847c;
+padding:10px;
+}
+.center
+{
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+</style>
+index1 page
+
+IMAGE ADDRESS=https://ak.picdn.net/shutterstock/videos/779578/thumb/1.jpg
+
+WEBPAGE-2-index1
+<style>
+body{
+font-family:Times New Roman;
+}
+body{
+background-image:url('https://ak.picdn.net/shutterstock/videos/779578/thumb/1.jpg');
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+.box{
+width:250px;
+margin:auto;
+background:#AED6F1;
+opacity:0.8;
+padding:8px;
+}
+form{
+padding:10px;
+font-family:Times New Roman;
+border:2px solid black;
+margin:6px;
+}
+h1
+{
+text-align:center;
+color:#000080;
+}
+h2{
+text-align:center;
+color:#000080;
+padding:10px;
+border-radius:10px;
+}
+input{
+padding:10px;
+margin:5px;
+border-radius:5px;
+}
+input[type=text]
+{
+width:90%;
+}
+input[type=submit]
+{
+width:95%;
+cursor:pointer;
+font-size:18px;
+font-weight:bold;
+color:black;
+}
+input[type=submit]:hover{
+background:#dddddd;
+text-align:center;
+}
+select{
+padding:10px;
+width:32%
+border-radius:5px;
+align:center;
+}
+</style>
+body{
+background-image:url('https://ak.picdn.net/shutterstock/videos/779578/thumb/1.jpg');
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+
+
